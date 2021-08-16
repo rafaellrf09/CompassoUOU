@@ -1,6 +1,7 @@
 class IndexController {
     async index(_, res) {
         const routes = {
+            message: "Rotas utilizáveis da aplicação",
             get: {
                 cidade_by_name: ["http://localhost:3333/cidade/name", "queryParams: name"],
                 cidade_by_state: ["http://localhost:3333/cidade/state", "queryParams: state"],
